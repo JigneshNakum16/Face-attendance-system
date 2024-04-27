@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 from PIL import Image     # image file read and write
 
-recognizer = cv2.face.LBPHFaceRecognizer_create()  # it recognize the faces in camera
+recognizer = cv2.face.LBPHFaceRecognizer_create() # it recognize the faces in camera
 path = "dataset"
 
 def get_images_with_id(path):
